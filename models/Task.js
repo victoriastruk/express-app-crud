@@ -4,13 +4,13 @@ const { format } = require('date-fns');
 const tasksDB = [
   {
     id: '1',
-    textTask: 'Task1',
+    text: 'Task1',
     createdAt: format(new Date(), 'yyyy-MM-dd HH:mm'),
     isDone: false,
   },
   {
     id: '2',
-    textTask: 'Task2',
+    text: 'Task2',
     createdAt: format(new Date(), 'yyyy-MM-dd HH:mm'),
     isDone: true,
   },
